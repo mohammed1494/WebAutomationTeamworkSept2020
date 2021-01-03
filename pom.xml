@@ -11,6 +11,9 @@
     <modules>
         <module>Generic</module>
         <module>AmazonTeamwork</module>
+        <module>CVSExample</module>
+        <module>GmaitTeamwork</module>
+        <module>jcpennyTeamwork</module>
     </modules>
 
     <dependencyManagement>

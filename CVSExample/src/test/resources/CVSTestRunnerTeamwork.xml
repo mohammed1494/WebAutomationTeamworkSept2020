@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="CVS Test Script" parallel="false">
+
+    <parameter name="url" value="https://www.cvs.com/"></parameter>
+
+    <test name = "CVS Home">
+
+        <classes>
+            <class name="search.CVSPageTest"></class>
+        </classes>
+
+    </test>
+
+</suite>

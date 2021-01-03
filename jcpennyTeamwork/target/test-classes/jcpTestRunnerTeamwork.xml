@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="Gmail Test Script" parallel="false">
+
+    <parameter name="url" value="https://www.jcpenney.com/"></parameter>
+
+    <test name = "Google Home Page">
+
+        <classes>
+            <class name="jcpTestSearch.jcpennyTest"></class>
+        </classes>
+
+    </test>
+
+</suite>

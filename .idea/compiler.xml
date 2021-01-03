@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jcpennyTeamwork" />
+        <module name="GmaitTeamwork" />
         <module name="Generic" />
         <module name="AmazonTeamwork" />
+        <module name="CVSExample" />
       </profile>
     </annotationProcessing>
   </component>
